@@ -1,11 +1,40 @@
-h1{
-    color: brown;
+body {
+    background-color:#2F3035;
 }
 
-h2{
-    color: rebeccapurple;
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
 }
 
-h3{
-    color: blue;
+header {
+    background-color: cadetblue;
+    height: 118px;
+    width: 1024px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* This is to make a structure centered. */
+    text-align: center;
 }
+
+nav {
+    background-color:red;
+    height: 40px;
+    /* width: 1024px; na dileo hobe*/
+}
+
+main {
+    background-color:orange;
+    height: 400px;
+    /* width: 1024px; */
+}
+
+footer {
+    background-color:greenyellow;
+    height: 40px;
+    /* width: 1024px; */
+}
+
+
+
